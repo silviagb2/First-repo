@@ -126,5 +126,77 @@ button:textfield {
     margin-right:63px;
 }
 
+h3 {
+    width: 295px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.39;
+    color: #031d5b;
+    text-align:left;
+    margin: 50px 20px 0px 10px;
+}
 
+/* Separación foto - título 1 diferente al resto */
+#title1 {
+    margin-top: 60px; 
+}
+
+article p {
+    width: 295px;
+    height: 192px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    color: #5b6c94;
+    margin: 40px 20px 0px 20px;
+}
+
+#ultimo-articulo {
+    margin-bottom: 60px;
+}
+
+#illustration-mockup {
+    width: 180px;
+    height: 360px;
+    object-fit: contain;
+    margin: -8px 98px 59px 97px;
+}
+
+h4 {
+    width: 315px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    color: #f8765e;
+    margin: 0px 30px 10px 30px;
+}
+
+h5 {
+    width: 315px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.73;
+    text-align: center;
+    color: #031d5b;
+    margin: 0px 30px 30px 30px;
+}
+
+#p-mockup {
+    width: 315px;
+    height: 350px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: center;
+    color: #5b6c94;
+    margin: 0px 30px 30px 30px;
+}
 
