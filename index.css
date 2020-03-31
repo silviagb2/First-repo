@@ -80,5 +80,42 @@ input::placeholder {
     padding:21px 162px 19px 25px;
 }
 
+button {
+    width: 168px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+    background-color: #9bdbe7;  
+    margin-top: 20px; 
+    margin-bottom:76px;
+}
+
+button:textfield {
+    width: 168px;
+    height: 25px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+#articles {
+    width: 335px;
+    height: 1571px;
+    border-radius: 20px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+    position:relative;
+    top: -108px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align:center;
+}
+
 
 
