@@ -117,5 +117,14 @@ button:textfield {
     text-align:center;
 }
 
+.img-articles {
+    width: 208px;
+    height: 120px;
+    object-fit: contain;
+    margin-top:60px;
+    margin-left:63px;
+    margin-right:63px;
+}
+
 
 
