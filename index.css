@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    padding: 25px 135px 0 136px;
+    width: 104px;
+    height: 58px;
+    font-size: 26px;
+    font-weight: 900;
+    color: white;
+    line-height: 2.23;
+}
+
+header{
+    background-color: #f8765e;
+    width: 375px;
+    text-align: center;
+}
