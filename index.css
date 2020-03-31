@@ -13,8 +13,23 @@ h1{
     line-height: 2.23;
 }
 
-header{
+header {
     background-color: #f8765e;
     width: 375px;
     text-align: center;
 }
+
+nav {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+
+
+
+
