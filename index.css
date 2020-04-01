@@ -87,7 +87,7 @@ button {
     margin-top: 20px; 
     margin-bottom:140px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* -------- section 1 - articles -------- */
@@ -162,7 +162,6 @@ article p {
     object-fit: contain;
     margin: 10px 40px 59px 60px;
 }
-
 
 h4 {
 /*     width: 315px;
@@ -431,17 +430,79 @@ footer p {
         display:flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin: 2%;
-        padding: 5% 8%;
+ /*        margin: 2%;
+        padding: 5% 8%; */
     }
 
     .clay-white {
         z-index: 2;
-        width: 50%;
+        width: 530px;
+        height: 429px;
+        object-fit: contain;
+        margin-top: -60px;
     }
 
     .text-banner {
-        align-items: flext-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    h2 {
+        font-family: Roboto;
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-align: left;
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+
+    .intro {
+        width: 450px;
+        height: 96px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-align: left;
+        margin-top: 25px;
+        margin-left:0px;
+    }
+
+    #form-header {
+        display:flex;
+        text-align: left;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 70px;
+        margin-left:0px;
+    }
+
+    #input-header {
+        width: 290px;
+        height: 45px;
+        border-radius: 15px;
+        box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+        margin-left: -120px;
+    }
+
+    #button-header {
+        width: 140px;
+        height: 45px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+        background-color: #9bdbe7;
+        font-size: 14px;
+        margin-left: 16px;
     }
 
 /* -------- section 1 - articles -------- */
@@ -449,7 +510,7 @@ footer p {
 #articles {
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: -70px;
+    margin-top: -190px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -482,21 +543,65 @@ section {
     display: flex;
     flex-direction: row;
     margin: 10%;
-    justify-items: space-between;
+/*     justify-items: space-between; */
     float: none;
-    align-items: right !important;
 }
 
 #illustration-mockup {
     width: 35%;
 }
 
+.text-circulo {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+
+}
+
+#premium {
+    width: 547px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: right;
+    color: #f8765e;
+    padding-right: 120px;
+}
+
+h5 {
+    width: 547px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.32;
+    text-align: right;
+    color: #031d5b;
+    padding-right: 120px;
+}
+
+#p-mockup {
+    width: 560px;
+    height: 192px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: right;
+    color: #5b6c94;
+    padding-right: 120px;
+}
+
+
+
 /* -- -------- section customers -------- --> */
 
 .clientes {
     display: flex;
-    padding-right: 0px;
-    margin-right:0px;
 }
 
 .rectangulo-naranja {
@@ -509,21 +614,58 @@ section {
 } 
 
 
-
-
 /* ----section subscribe today------ */
+
+.subscribe-today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15%;
+}
+
+#today {
+    width: 812px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f8765e;
+}
+
 #product {
-    margin-top: 1100px;
+    width: 100%;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.32;
+    text-align: center;
+    color: #cdcdcd;
+}
+
+.form-footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button-footer {
+
 }
 
 
-
-
-
-
-
-
-
+/* -------- footer -------- */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: -200px;
+}
 
 
 }
