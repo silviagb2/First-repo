@@ -24,7 +24,6 @@ nav {
     font-size: 16px;
     font-weight: bold;
     line-height: 2;
-/*     margin-top: 14px; */
     display:flex;
     justify-content: space-evenly;
 }
@@ -94,8 +93,8 @@ button {
 /* -------- section 1 - articles -------- */
 
 #articles {
-    width: 335px;
-    height: 1571px;
+/*     width: 335px;
+    height: 1571px; */
     border-radius: 20px;
     box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
     background-color: #ffffff;
@@ -103,7 +102,8 @@ button {
     top: -64px;
     margin-right: 20px;
     margin-left: 20px;
-    text-align:center;
+    text-align:left;
+    padding-bottom: 25px;
 }
 
 .img-articles {
@@ -116,8 +116,8 @@ button {
 }
 
 h3 {
-    width: 295px;
-    height: 25px;
+/*     width: 295px;
+    height: 25px; */
     font-size: 18px;
     font-weight: 500;
     line-height: 1.39;
@@ -141,8 +141,8 @@ h3 {
 }
 
 article p {
-    width: 295px;
-    height: 192px;
+/*     width: 295px;
+    height: 192px; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -155,18 +155,18 @@ article p {
     margin-bottom: 60px;
 }
 
-/* ------ section mockup -------- */
+/* ---- section mockup circulo ------ */
 
 #illustration-mockup {
-    width: 180px;
-    height: 360px;
+    width: 70%;
     object-fit: contain;
-    margin: -8px 98px 59px 97px;
+    margin: 10px 40px 59px 60px;
 }
 
+
 h4 {
-    width: 315px;
-    height: 40px;
+/*     width: 315px;
+    height: 40px; */
     font-family: Roboto;
     font-size: 30px;
     font-weight: bold;
@@ -177,8 +177,8 @@ h4 {
 }
 
 h5 {
-    width: 315px;
-    height: 45px;
+/*     width: 315px;
+    height: 45px; */
     font-family: Roboto;
     font-size: 26px;
     font-weight: 500;
@@ -189,8 +189,8 @@ h5 {
 }
 
 #p-mockup {
-    width: 315px;
-    height: 350px;
+/*     width: 315px;
+    height: 350px; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -365,6 +365,8 @@ h5 {
 
 @media (min-width:800px) {
 
+/* --------- header ------ */
+
     header {
         display:flex;
         justify-content: space-between;
@@ -397,6 +399,67 @@ h5 {
     .text-banner {
         align-items: flext-start;
     }
+
+/* -------- section 1 - articles -------- */
+
+#articles {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article {
+    max-width: 32%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.img-articles {
+    width: 60%;
+}
+
+article p {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #5b6c94;
+    margin-top: 20px;
+}
+
+/* -------section mockup circulo ----- */
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    justify-items: space-between;
+    float: none;
+    align-items: right !important;
+}
+
+#illustration-mockup {
+    width: 35%;
+}
+
+/* .text-circulo {
+    width: 50%;
+    text-align: right !important;
+}  */
+
+
+
+
+
+
+
+
+
 }
 
 
