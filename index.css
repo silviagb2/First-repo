@@ -1,34 +1,47 @@
 *{
     margin: 0px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
-h1{
-    padding: 25px 135px 0 136px;
-    width: 104px;
-    height: 58px;
-    font-size: 26px;
-    font-weight: 900;
-    color: white;
-    line-height: 2.23;
-}
+/* ---------header------------- */
 
 #header {
     background-color: #f8765e;
-    width: 375px;
     text-align: center;
-    height: 1085px;
+}
+
+@media (min-width:800px) {
+    header {
+        display:flex;
+    }
+
+    #header section {
+        display:flex;
+    }
+}
+
+h1{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 2.23;
+    color: #ffffff;       
+    padding: 25px 135px 14px 136px;
 }
 
 nav {
     font-size: 16px;
     font-weight: bold;
     line-height: 2;
+/*     margin-top: 14px; */
+    display:flex;
+    justify-content: space-evenly;
 }
 
 a {
     color: white;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 .clay-white {
@@ -39,8 +52,6 @@ a {
 }
 
 h2 {
-    width: 315px;
-    height: 120px;
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -50,8 +61,6 @@ h2 {
 }
 
 .intro {
-    width: 315px;
-    height: 160px;
     font-size: 16px;
     font-weight: bold;
     line-height: 2;
@@ -87,31 +96,21 @@ button {
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
     background-color: #9bdbe7;  
     margin-top: 20px; 
-    margin-bottom:76px;
+    margin-bottom:140px;
+    color: white;
+    font-size: 20px;
 }
 
-button:textfield {
-    width: 168px;
-    height: 25px;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-  }
+/* -------- section 1 - articles -------- */
 
 #articles {
-    width: 335px;
-    height: 1571px;
+/*     width: 335px;
+    height: 1571px; */
     border-radius: 20px;
     box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
     background-color: #ffffff;
     position:relative;
-    top: -108px;
+    top: -64px;
     margin-right: 20px;
     margin-left: 20px;
     text-align:center;
@@ -134,12 +133,21 @@ h3 {
     line-height: 1.39;
     color: #031d5b;
     text-align:left;
-    margin: 50px 20px 0px 10px;
+    margin: 50px 20px 0px 20px;
 }
 
 /* Separación foto - título 1 diferente al resto */
 #title1 {
     margin-top: 60px; 
+}
+
+/* Linea debajo títulos artículos */
+.underline {
+    width: 60px;
+    height: 5px;
+    background-color: #f8765e;
+    display: inline-block;
+    margin: 15px 255px 0px 20px;
 }
 
 article p {
@@ -150,12 +158,14 @@ article p {
     font-weight: 500;
     line-height: 2;
     color: #5b6c94;
-    margin: 40px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 #ultimo-articulo {
     margin-bottom: 60px;
 }
+
+/* ------ section mockup -------- */
 
 #illustration-mockup {
     width: 180px;
@@ -205,13 +215,15 @@ h5 {
     margin: 0px 98px 0px 99px;
 }
 
+
+/* ----------- section customers ---------- */
+
 .clientes {
     position: relative;
     background-color: white;
 }
 
-
-.rectangulo-rojo {
+.rectangulo-naranja {
     width: 300px;
     height: 660px;
     border-radius: 20px;
@@ -245,7 +257,7 @@ h5 {
     z-index:3;
 }
 
-.marjon {
+.rectangulo-azul {
     width: 300px;
     height: 400px;
     border-radius: 20px;
@@ -257,6 +269,74 @@ h5 {
     top: 337px;
     z-index:4;
 }
+
+#comillas-blancas {
+    width: 49px;
+    height: 40px;
+    object-fit: contain;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.tasty {
+    width: 240px;
+    height: 80px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+    top: 143px;
+    left: 51px;
+}
+
+#name {
+    width: 115px;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    color: #ffffff;
+    position: absolute;
+    top: 301px;
+    left:50px;
+}
+
+#ironhack {
+    width: 71px;
+    height: 36px;
+    opacity: 0.8;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    color: #ffffff;
+    position: absolute;
+    top: 301px;
+    left: 175px;
+}
+
+/* #rectangulo-cortado {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 12px 12px 40px 0 rgba(121, 121, 121, 0.3);
+  background-color: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  z-index: 5;
+  top: 337px;
+  left:340px;
+} */
+
+/* --------- section subscribe today ------- */
 
 #today {
     width: 335px;
@@ -284,8 +364,12 @@ h5 {
     margin: 0px 33px 40px 34px;
 }
 
-.button-footer {
-    
+#button-footer {
+   margin: 0px 20px 20px 20px; 
+}
+
+#submit-footer {
+    margin: 20px 103px 100px 104px;
 }
 
 
