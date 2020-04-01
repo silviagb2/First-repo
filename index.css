@@ -11,16 +11,6 @@
     text-align: center;
 }
 
-@media (min-width:800px) {
-    header {
-        display:flex;
-    }
-
-    #header section {
-        display:flex;
-    }
-}
-
 h1{
     font-family: Roboto;
     font-size: 26px;
@@ -104,8 +94,8 @@ button {
 /* -------- section 1 - articles -------- */
 
 #articles {
-/*     width: 335px;
-    height: 1571px; */
+    width: 335px;
+    height: 1571px;
     border-radius: 20px;
     box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
     background-color: #ffffff;
@@ -370,6 +360,43 @@ h5 {
 
 #submit-footer {
     margin: 20px 103px 100px 104px;
+}
+
+
+@media (min-width:800px) {
+
+    header {
+        display:flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        margin-top: 37px;
+        margin-right: 120px;
+    }
+
+    nav a {
+        margin-left: 36px;
+    }
+
+    #header section {
+        width: 100%;
+        background-color: #f8765e;
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 2%;
+        padding: 5% 8%;
+    }
+
+    .clay-white {
+        z-index: 2;
+        width: 50%;
+    }
+
+    .text-banner {
+        align-items: flext-start;
+    }
 }
 
 
