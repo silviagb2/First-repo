@@ -606,7 +606,7 @@ h5 {
 
 .rectangulo-naranja {
     width: 70%;
-    height: 820px;
+    height: 830px;
     border-radius: 20px 0 0 20px;
     background-color: #f8765e;
 /*     margin-right: 0px;
@@ -650,8 +650,6 @@ h5 {
 }
 
 
-
-
 /* ----section subscribe today------ */
 
 .subscribe-today {
@@ -659,7 +657,6 @@ h5 {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 15%;
 }
 
 #today {
